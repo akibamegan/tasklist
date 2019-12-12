@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  color: #61DAFB;
+}
+
+h1 {
+  text-align: center;
+  color: white; 
+}
+
+.list-group {
+  margin:15px;
+}
+
+.list-group-item {
+  margin: 15px;
+}
+
+#main {
+  width: 600px;
+  background-image: url(https://d39l2hkdp2esp1.cloudfront.net/img/eps/E2974_2x/c/E2974_01.jpg?20160615025905);
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul>li:hover {
+  background-color: #fff0f0;
+}
+
+.form-inline .form-control {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 2em;
+}
+
+.done {
+  color: green;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: rgb(219, 0, 154);
+}
+
+.icon {
+  margin: 6px 10px 6px 0;
+}
